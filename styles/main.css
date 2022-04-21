@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-900 text-gray-100;
+}
+
+@layer components {
+  .input {
+    @apply px-4 py-2 block w-full;
+    @apply text-black;
+    @apply focus:ring-indigo-500 focus:border-indigo-500 rounded-md sm:text-sm border border-gray-300;
+  }
+}
